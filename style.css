@@ -1,0 +1,651 @@
+body { background-color: black; }
+ .content {color:black;}
+
+ * {
+ 	font-family: 'Cormorant Garamond', serif;
+ }
+
+ li { 
+
+ 	margin-top: 10px;
+
+  }
+input , textarea ,label ,select {
+	text-align: center;
+	font-size:20px;
+	height: 45px !important;
+}
+
+
+p , li {
+	font-size: 1.5vw;
+}
+
+h1 , h2 , h3 {
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+
+a {
+	cursor: pointer;
+}
+/*.onoff {
+	position: fixed;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	left: 100%;
+	transform: translateX(-30%);
+	transition: ease-in 0.5s;
+	color: white;
+	padding: 200px 100px 100px;
+	
+
+}*/
+
+.transparent-bg {
+	height: 100vh;
+	width:100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	z-index: 1;
+}
+
+
+.right-bar {
+	position: fixed;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	z-index: 3;
+	right: -100%;
+	transform: translateX(450px);
+	transition: ease-in 0.5s;
+	color: white;
+	padding: 140px 80px 100px;
+}
+
+
+}
+.form {
+}
+
+ .close {
+
+
+ }
+
+ .formtop {
+ 	position: relative;
+
+
+ }
+ .reservationform {
+ 	padding-top: 50px;
+ 	height: 80vh;
+ 	
+ }
+
+.submit {
+	border-style: solid;
+	  border-color: white;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	padding: 10px 10px 10px;
+
+}
+
+.submit:hover {
+	color:black;
+	   background-color: white;
+	    transition: 0.2s;
+	    border-style: solid;
+	  border-color: black;
+}
+
+
+.nav-top  { 
+position: fixed;
+height: 10vh;
+background-color: black;
+padding-bottom: 0;
+margin: 0;
+width: 100%;
+color: white;
+display: flex;
+z-index: 2;
+align-items: center;
+justify-content: center;
+ margin-right: auto;
+ }
+
+ .bg-black-navtop {position: fixed; height: 10vh; width: 100%; background-color: black; z-index: 1;}
+
+
+
+
+
+    
+ 	 }
+
+ .burger { width: 10%; padding: 0; margin: 0;}
+ .logo  { width: 38%; margin-left: 30%; padding-left: 5%; }
+ .reservation { width: auto; overflow: visible;}
+ .top-right:hover {
+	  color:black;
+	   background-color: white;
+	    transition: 0.2s;
+	    border-style: solid;
+	  border-color: black;}
+
+ 
+ .top-right {
+	font-size: 20px;
+	 border-style: solid;
+	  border-color: white;
+	  padding: 15px 20px 15px;
+	transition: ease-out 0.3s;
+	cursor: pointer;
+
+ }
+ .topfont {
+  font-size: 100%;
+ }
+
+
+
+ /*PAGE SCROLL EFFECT*/
+
+ *, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.demo-wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.backgrounds {
+  width: 100vw;
+  height: 100vh;
+  -webkit-transition: -webkit-transform ease 0.8s;
+  transition: -webkit-transform ease 0.8s;
+  transition: transform ease 0.8s;
+  transition: transform ease 0.8s, -webkit-transform ease 0.8s;
+}
+
+/*pages*/
+
+.bg {
+  width: 100%;
+  height: 100vh !important;
+  padding: 1px;
+  background-color: black;
+}
+
+/*.bg-1 {
+  background: url("https://kiyutink.github.io/madrid/madrid2.jpg");
+  background-size: cover;
+  background-position: center;
+}*/
+
+.bg {display: flex;}
+
+.image1 {
+  background-image: url("images/project-image4.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  flex:50%;
+}
+.image2 {
+  background-image: url("images/project-image5.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  flex:50%;
+}
+.image3 {
+  background-image: url("images/project-image6.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  flex:50%;
+}
+
+.content {
+	flex: 50%;
+	background-color: white;
+	height: 100vh;
+	width: 100%;
+	padding: 25% 10% 20%;
+}
+
+.readmore-black {
+	color: black;
+	border-style: solid;
+	border-color: black;
+	 padding: 10px 50px 10px;
+	 transition: ease-out 0.3s;
+
+}
+.readmore-black:hover { 
+ color:white;
+ background-color: black;
+ transition: 0.2s;
+}
+
+/*pages end*/
+
+
+/*6 GRID ROW */
+
+.bg-5 {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	flex-wrap: wrap;
+	text-align: flex-start;
+}
+
+.flex { 
+
+	flex:33.3%;
+	height: auto;
+	width: 100%;
+	position: relative;
+
+	 }
+.gal-content {
+ position: absolute;
+ font-size: 100%;
+ color: white;
+ padding: 25% 10% 10%;
+ background-color: rgba(0,0,0, 0.3); 
+ height: 100%; 
+}
+
+.readmore {
+	color: white;
+	border-style: solid;
+	border-color: white;
+	 padding: 5px 50px 5px;
+	 transition: ease-out 0.3s;
+
+}
+
+.readmore:hover { 
+ color: black;
+ background-color: white;
+ transition: 0.2s;
+ border-color: black;
+}
+
+.gal {
+	padding-bottom: 5%;
+}
+
+
+.gal-content-last {
+ position: absolute;
+ font-size: 20px !important;
+ padding: 40% 10% 10%; 
+ height: auto; 
+}
+.six {
+	background-color: #dce4e7;
+}
+
+.grid {
+
+	width: 100%;
+	height: 100vh;
+
+	
+	display: grid !important;
+	grid-template-areas: 
+	'club club club topright topright topright'
+	'footerleft footerleft center center footerright footerright'
+	'footerleft footerleft center center lowerright lowerright'
+     ;
+}
+
+/*.footer {
+	background-color: pink;
+	height: 100%;
+	width: 100%;
+	
+	*/
+
+.footertopright , .footertopleft { 
+	background-color: #ebe9e6;
+	 }
+
+.footerleft , .center  {
+
+	background-color: #d5dddb;
+}
+
+.footerright {
+	background-color: #dce4e7;
+}
+
+
+
+.footertopright {
+	grid-area: topright;
+	height: 50vh;
+	width: 50vw;
+	padding: 200px 100px 200px;		
+
+}
+
+.footertopleft { 
+	grid-area: club;
+	height: 50vh;
+	width: 50vw;
+	padding: 200px 100px 200px;
+
+
+
+}
+.footerleft { 
+	grid-area: footerleft;
+	height: 50vh;
+	padding: 5% 25% 5%;
+
+	 }
+.center {
+	grid-area: center;
+	height: 50vh;
+	padding: 5% 25% 5%;
+
+}
+.footerright { 
+	grid-area: footerright;
+	height: 25vh;
+	padding: 5% 25% 5%;
+
+
+
+
+	 }
+
+.lowerright {
+	grid-area: lowerright;
+	height: 25vh;
+	background-color: #dce4e7;
+	padding: 5% 25% 5%;
+}
+
+.footer-reservation {
+	border-style: solid;
+	border-color: black;
+	 padding: 5px 50px 5px;
+	 transition: ease-out 0.3s;
+
+}
+
+.footer-reservation:hover { 
+ color: white;
+ background-color: black;
+ transition: 0.2s;
+ border-color: white;
+}
+.footerbig { 
+
+
+	padding: 0px 0px 30px;
+
+
+ }
+/*    .line1 {
+	grid-area: lineone;
+	color: white;
+	height: 20vh;
+	width: 100vw;
+	text-align: center;
+    }
+
+
+
+
+	.line2 {
+	grid-area: linetwo;
+	color: white;
+	height: 20vh;
+	width: 100vw;
+	text-align: center;
+    }*/
+.input-subscribe  { 
+
+
+
+	font-size: 30px;
+	height: 70px;
+	width: 20vw;
+	padding: 5px 10px 5px;
+	text-align:center;
+
+
+ }
+
+ .submit {
+ 	width: 10vw;
+ }
+
+ 
+
+
+
+
+
+
+
+
+ .
+
+
+
+
+
+
+
+
+
+
+/*.bg-3 {
+  background: url("https://kiyutink.github.io/tokyo/tokyo1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-4 {
+  background: url("https://kiyutink.github.io/moscow/moscow1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-5 {
+  background: url("https://kiyutink.github.io/beijing/beijing2.jpg");
+  background-size: cover;
+  background-position: center;
+}*/
+
+/*h1 {
+  color: white;
+  font-family: Raleway, sans-serif;
+  line-height: 100vh;
+  font-size: 3rem;
+  text-align: center;
+}*/
+
+
+/*HEADER AUTO FADE IN FADE OUT*/
+
+#images ul{position:relative;width:65%;height:100vh;list-style:none;overflow:hidden}
+#images li{display:none;position:absolute;left:0;top:0;height: 100%;overflow:hidden;}
+
+
+	.one { 
+	  background-image: url(images/project-image7.jpg);
+	  background-size: cover;
+	  background-position: center; }
+	.two { 
+		background-image: url(images/project-image8.jpg);
+	  background-size: cover;
+	  background-position: center;  }
+	.three { 
+		background-image: url(images/project-image9.jpg);
+	  background-size: cover;
+	  background-position: center;}
+	.four { 
+		background-image: url(images/project-image10.jpg);
+	  background-size: cover;
+	  background-position: center; }
+	.five {
+	 background-image: url(images/project-image11.jpg);
+	  background-size: cover;
+	  background-position: center; }
+
+/*burger nav bar*/
+
+.nav {
+  -webkit-transition: left 0.5s ease;
+  -moz-transition: left 0.5s ease;
+  -ms-transition: left 0.5s ease;
+  -o-transition: left 0.5s ease;
+  transition: left 0.5s ease;
+  background: black;
+  cursor: pointer;
+  font-size: 2rem;
+  height: 100vh;
+  left: -20rem;
+  padding: 6rem 2rem 2rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 20rem;
+  z-index: -1;
+}
+
+.nav.expanded { left: 0; }
+
+.nav ul {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.nav-toggle {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  height: 2rem;
+  left: 2rem;
+  position: fixed;
+  top: 2rem;
+  width: 3.6rem;
+  z-index: 1;
+}
+
+.nav-toggle:hover { opacity: 0.8; }
+
+.nav-toggle .nav-toggle-bar,  .nav-toggle .nav-toggle-bar::after,  .nav-toggle .nav-toggle-bar::before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: white;
+  content: '';
+  height: 0.4rem;
+  width: 100%;
+}
+
+.nav-toggle .nav-toggle-bar { margin-top: 0; }
+
+.nav-toggle .nav-toggle-bar::after { margin-top: 0.8rem; }
+
+.nav-toggle .nav-toggle-bar::before { margin-top: -0.8rem; }
+
+.nav-toggle.expanded .nav-toggle-bar { background: transparent; }
+
+.nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
+  background: white;
+  margin-top: 0;
+}
+
+.nav-toggle.expanded .nav-toggle-bar::after {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.nav-toggle.expanded .nav-toggle-bar::before {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

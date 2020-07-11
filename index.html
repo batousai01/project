@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+	<!-- reservation right slid bar -->
+	<div class="right-bar" id="right-bar">
+
+		<span onclick="toggle_show_hide('right-bar')" class="top-right close">CLOSE</span>
+
+		<div class="reservationform">
+
+		<form class="form" action="">
+
+			Name <br>
+			<input placeholder="Name" style="width: 300px; height: 30px;" type="text"> <br>
+			Phone <br>
+			<input placeholder="Example:+971123456789	" style="width: 300px; height: 30px;" type="text"> <br>
+			Date <br>
+			<input id="date" placeholder="mm/dd/yyyy" style="width: 300px; height: 30px;" type="text"> <br>
+			<label style="width: 300px; height: 30px;" for="time">Time</label> <br>
+			<select style="width: 300px; height: 30px;" id="time" name="time" form="time">
+			  <option style="width: 300px; height: 30px;" value="time">Breakfast 8am</option>
+			  <option style="width: 300px; height: 30px;" value="time">Breakfast 9am</option>
+			  <option style="width: 300px; height: 30px;" value="time">Breakfast 10am</option>
+			  <option style="width: 300px; height: 30px;" value="time">Breakfast 11am</option>
+			  <option style="width: 300px; height: 30px;" value="time">Lunch 12pm</option>
+			  <option style="width: 300px; height: 30px;" value="time">Lunch 1pm</option>
+			  <option style="width: 300px; height: 30px;" value="time">Dinner 6pm</option>
+			  <option style="width: 300px; height: 30px;" value="time">Dinner 7pm</option>
+			  <option style="width: 300px; height: 30px;" value="time">Dinner 8pm</option>
+			  <option  style="width: 300px; height: 30px;"value="time">Dinner 9pm</option>
+			</select> <br>
+
+			<label for="">Number of Attendees</label> <br>
+			Adult <br>
+			<input placeholder="#" style="width: 300px; height: 30px;" type="text" name="adult" id=""> <br>
+			Kids <br>
+			<input placeholder="#" style="width: 300px; height: 30px;" type="text" name="Kids" id=""> <br>
+
+            Comments/Additional Requests <br>
+			<textarea placeholder="Write here" name="comments/request" id="" style="width: 300px; height: 150px !important;"></textarea> <br>
+
+
+			<input class="submit" type="submit">
+			
+			
+
+		</form>
+
+
+		</div>
+
+
+
+
+
+	</div>
+
+
+
+
+
+	
+	<!-- nav bar burger-->
+	<div class="nav-top fixed topfont" id="navtop">
+		<div class="nav-toggle">
+		  <div class="nav-toggle-bar"></div>
+		</div>
+		<nav class="nav">
+		  <ul>
+		    <li><a>HOME</a></li>
+		    <li><a>MENU</a></li>
+		    <li><a>ABOUT</a></li>
+		    <li><a>RESERVATION</a></li>
+		    <li><a>CONTACT</a></li>
+		    <li><a>EVENTS</a></li>
+		    <li><a>WEDDING</a></li>
+		    <li onclick="toggle_show_hide('right-bar')"><a class="top-right">MAKE A RESERVATION</a></li>
+		  </ul>
+		</nav>
+
+		<div class="logo topfont"></div>
+		<div  onclick="toggle_show_hide('right-bar')" class="reservation top-right-text topfont"><a class="top-right" id="nav-right">MAKE A RESERVATION</a></div>
+	</div>
+
+	<!-- PAGE 1 -->
+
+	
+
+<div class="demo-wrapper">
+  <div class="backgrounds">
+    <div class="bg-1 bg" id="header"> 
+    	<div class="transparent-bg"></div>
+    	<div style="color:white;  position: absolute;top: 50%;left: 50%;
+  transform: translate(-50%, -50%); z-index: 1;"><img src="logo.png" alt=""></div>
+ <div id="images">
+    <ul
+        ><li><img src="images/project-image1.jpg" width="100%" height="auto" alt="" /></li
+        ><li><img src="images/project-image2.jpg" width="100%" height="auto" alt="" /></li
+        ><li><img src="images/project-image3.jpg" width="100%" height="auto" alt="" /></li
+        
+    ></ul>
+</div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="bg-2 bg">
+      <div class="image1"></div>
+      <div class="content">
+
+      	<h2>MENU</h2>
+      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur temporibus, quasi! Dolor assumenda ex recusandae blanditiis facilis reiciendis unde suscipit at repellendus, veniam reprehenderit qui cupiditate vero consectetur illo ipsa s.</p><br>
+      	<a class="readmore-black">READ MORE</a>
+      	
+      </div>
+    </div>
+
+   <!-- PAGE 3 -->
+    <div class="bg-2 bg">
+      
+      <div class="content">
+
+      	<h2>OUR CHEF</h2>
+      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur temporibus, quasi! Dolor assumenda ex recusandae blanditiis facilis reiciendis unde suscipit at repellendus, veniam reprehenderit qui cupiditate vero consectetur illo ipsa s.</p><br>
+      	<a class="readmore-black">READ MORE</a>
+      </div>
+    <div class="image2"></div>
+
+    </div>
+    <!-- PAGE 4 -->
+    <div class="bg-5 bg">
+      <div class="flex one">
+      	<div class="gal-content">
+      		<h3 class="gal">BE A MEMBER</h3>
+      	<p class="gal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo architecto alias, modi dolor reiciendis accusantium eius labore repellat maxime suscipit.</p>
+      	<a class="readmore">READ MORE</a>
+        </div>
+      </div>
+      <div class="flex two">
+      	<div class="gal-content">
+      		<h3 class="gal">OUR SPECIALTY</h3>
+      	<p class="gal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo architecto alias, modi dolor reiciendis accusantium eius labore repellat maxime suscipit.</p>
+      	<a class="readmore">READ MORE</a>
+        </div>
+      </div>
+      <div class="flex three">
+      	<div class="gal-content">
+      		<h3 class="gal">WEDDING</h3>
+      	<p class="gal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo architecto alias, modi dolor reiciendis accusantium eius labore repellat maxime suscipit.</p>
+      	<a class="readmore">READ MORE</a>
+        </div>
+      </div>
+      <div class="flex four">
+      	<div class="gal-content">
+      		<h3 class="gal">EVENTS</h3>
+      	<p class="gal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo architecto alias, modi dolor reiciendis accusantium eius labore repellat maxime suscipit.</p>
+      	<a class="readmore">READ MORE</a>
+        </div>
+      </div>
+      <div class="flex five">
+      	<div class="gal-content">
+      		<h3 class="gal">OUR PROMOTION</h3>
+      	<p class="gal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo architecto alias, modi dolor reiciendis accusantium eius labore repellat maxime suscipit.</p>
+      	<a class="readmore">READ MORE</a>
+        </div>
+      </div>
+      <div class="flex six">
+      	<div class="gal-content-last">
+      		      	<h1>CONTINUE READING OUR NEWS HERE</h1>
+      	</div>
+      </div>
+     </div>
+
+
+
+
+
+
+     <!-- end -->
+
+
+     <!-- PAGE5-->
+
+     <div class="bg-2 bg grid">
+
+     	<div class="footertopleft">
+     		<h1>KEEP UP TO DATE WITH US</h1>
+     		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ratione voluptas eius laudantium ipsum assumenda earum quas soluta nisi vitae.</p>
+
+     	</div>
+
+     	<div class="footertopright">
+
+     	  <form class="subscribe" action="">
+         	<input class="input-subscribe" type="text" id="fname" name="firstname" placeholder="Email Address">
+         	<input class="input-subscribe submit" type="submit" value="SUBSCRIBE">
+         </form>
+
+	    </div>
+     	<div class="footerright">
+     		<h1>LINK</h1>
+     		<h4>FACEBOOK<br>INSTAGRAM<br>TWITTER</h4>
+     	</div>
+     	<div class="footerleft">
+
+
+     		<h1 class="footerbig">NEWS</h1>
+     		<ul>
+     			<li>About</li>
+     			<li>Menu</li>
+     			<li>News</li>
+     			<li>Gift Voucher</li>
+     			<li>Meet the team</li>
+     			<li>Reservation policy</li>
+     			<li>Privacy Policy</li>
+     		</ul>
+
+
+
+     	</div>
+         <div class="center">
+
+         	<h1 class="footerbig">OPENING HOURS</h1>
+     		<p>LUNCH<br>Saturday to Sunday<br>Bookings 8am to 1pm<br>DINNER<br>Thursday to Sunday<br>Bookings 6pm to 9pm</p>
+     		<h1 class="footerbig">RESERVATION</h1>
+     		<a class="footer-reservation" onclick="clickOffOn()">MAKE RESERVATION</a>
+
+
+         </div>
+         <div class="lowerright">
+         	<h4>RESTURANT 2020. ALL RIGHTS RESERVED</h4>
+         	<h4>DESIGN BY IKF</h4>
+
+         </div>
+         
+
+     	
+
+
+     </div>
+
+     
+
+    </div>
+
+
+
+  </div>
+
+
+
+</div>
+    <!-- PAGE 5 -->
+
+
+
+
+
+
+
+
+
+
+<script src="javascript.js"></script>
+
+
+	
+</body>
+</html>
