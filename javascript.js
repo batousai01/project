@@ -157,4 +157,9 @@ var date = document.getElementById('date');
 
 
 
+// Loader  
 
+
+$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
