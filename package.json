@@ -1,0 +1,19 @@
+{
+  "name": "franciscos-restaurant",
+  "version": "1.0.0",
+  "description": "Static restaurant website",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batousai01/project.git"
+  },
+  "author": "ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batousai01/project/issues"
+  },
+  "homepage": "https://github.com/batousai01/project#readme"
+}
